@@ -9,7 +9,6 @@ namespace WareHouseSpace.Models
 {
     public class ModelInvoice
     {
-        //[Browsable(false)]
         [DisplayName("Номер накладної")]
 
         public int Id { get; set; } 
@@ -28,3 +27,4 @@ namespace WareHouseSpace.Models
         public DateTime UpdatedAt { get; set; }
     }
 }
+
