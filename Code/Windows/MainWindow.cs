@@ -18,7 +18,7 @@ namespace WareHouseSpace
         public MainWindow()
         {
             InitializeComponent();
-            db = new DbManager("Data Source=database.db;");
+            db = new DbManager(@"Data Source=..\..\database.db;");
             random = new Random();
         }
 
